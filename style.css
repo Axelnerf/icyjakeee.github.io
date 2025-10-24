@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+#main-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #0056b3;
+  padding: 10px 0;
+}
+
+#main-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#main-nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+main h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+main h3 {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+#services-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#services-list li {
+  margin-bottom: 15px;
+  background-color: #e7f3ff;
+  padding: 15px;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+}
+
+.card {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #fff3cd;
+  border-left: 4px solid #ffc107;
+  border-radius: 4px;
+}
+
+.empty-message {
+  font-style: italic;
+  color: #555;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Login/Signup Container */
+.auth-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.auth-container h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.auth-toggle {
+  text-align: center;
+  margin-top: 15px;
+  color: #007bff;
+  cursor: pointer;
+  user-select: none;
+}
+
+.error-msg {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
